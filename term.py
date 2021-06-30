@@ -4,12 +4,12 @@ import os
 import socket
 import time
 from tkinter.constants import COMMAND
-from turtle import home
+from turtle import Home
 
-path = 'C:/'
+path = 'c:/'
 
-print("Welcome to Terminal [Version: 1.0, Development Branch")
-print("use crtl+c at anytime to escape this terminal")
+print("Welcome to Terminal [Version: 1.0, Development Branch]")
+print("use CTRL+C at anytime to escape this terminal")
 
 print("""
 [0] Exit Terminal 
@@ -19,12 +19,13 @@ print("""
 while True:
     usr_input = input("/Terminal~# ")
     host = input("Enter a URL or IP to ping: ")
-    number = input("How many times do you want to ping this URL? ")
+    number = input("How many times do you want to ping this URL/IP? )
 
     if usr_input == 'date':
         print("The Local Date Is: " + time.strftime("%m/%d/%Y"))
     def ping(host):
-        param = '-n' if platform.system().lower() == 'windows' else '-c'
+        param = '-n' if platform.system().lower() == 'windows' 
+    else '-c'
         command = ['ping', param, number, host]
         return subprocess.call(command)
     print(ping(host))
