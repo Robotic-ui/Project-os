@@ -14,7 +14,7 @@ db   8D 88   88  `8bd8'   `8bd8'  88   88   `8b  d8' db   8D
 `8888Y' YP   YP    YP       YP    YP   YP    `Y88P'  `8888Y' 
 """)
 
-print(Fore.GREEN + "Welcome new user, Please go through the Setup Page to get Started \n or if you already have a accout you can Continue to Login as normal!")
+print(Fore.GREEN + "Welcome new user, Please go through the Setup Page to get Started \n or if you already have an account you can Continue to Login as normal")
 
 # setup 
 print("""
