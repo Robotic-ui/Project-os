@@ -12,4 +12,4 @@ A python mock os, I don't know how this is functioning correctly to be honest lo
 * run Setup.py
 
 * Go through the setup page and enjoy :) 
-** also please be aware some Jank is still present so u know be careful and try not to break anything thx
+* also please be aware some Jank is still present so u know be careful and try not to break anything thx
