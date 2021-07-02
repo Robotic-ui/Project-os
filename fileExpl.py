@@ -3,7 +3,7 @@ from tkinter import filedialog
 import os 
 
 def openFile():
-    filepath = filedialog.askopenfilename(initaldir='/', title='Open Files', filetype=("text files",))
+    filepath = filedialog.askopenfilename(initaldir='/', title="Open Files", filetype=("text files",))
     os.startfile(filepath)
 
 window = Tk()
