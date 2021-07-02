@@ -19,7 +19,7 @@ print("""
 while True:
     usr_input = input("/Terminal~# ")
     host = input("Enter a URL or IP to ping: ")
-    number = input("How many times do you want to ping this URL/IP? )
+    number = input("How many times do you want to ping this URL/IP? ")
 
     if usr_input == 'date':
         print("The Local Date Is: " + time.strftime("%m/%d/%Y"))
