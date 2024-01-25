@@ -1,5 +1,5 @@
 ### About/general info
-A python mock os, I don't know how this is functioning correctly to be honest lol :D 
+my very first very first attempt at the python mock os renamed to Inark os , I don't know how this is functioning properly to be honest :D 
 
 * username.pass file is created on first setup
 * Default password is: test
