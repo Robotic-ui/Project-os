@@ -1,4 +1,4 @@
-# about os/general info
+### About/general info
 A python mock os, I don't know how this is functioning correctly to be honest lol :D 
 
 * username.pass file is created on first setup
